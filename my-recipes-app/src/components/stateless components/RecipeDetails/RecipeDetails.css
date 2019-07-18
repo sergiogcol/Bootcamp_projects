@@ -1,0 +1,43 @@
+button.delete{
+    float:right;
+    margin: 10px 0;
+    margin-left: 2px;
+    background-color: rgb(255, 155, 6);
+}
+button.update{
+    float:right;
+    margin: 10px 0;
+}
+.recipe_section{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:rgb(2, 2, 2, 0.85);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.recipe_section h1{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(118, 255, 6);
+    text-transform: capitalize;
+    padding-top: 0;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 155, 6);
+}
+p, time{
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+}
+ul{
+    font-size: 16px;
+    color: white;
+}
+.save{
+    margin-right: 10px;
+}

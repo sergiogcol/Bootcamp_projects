@@ -1,0 +1,101 @@
+html, body {
+  font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: url("./background-sauce.svg") no-repeat center center;
+  background-size: cover;
+}
+div#root{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#app{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  box-sizing: content-box;
+  width: 70%;
+  height: auto;
+  margin-top: 3%;
+  text-align: left;
+}
+.container h5{
+  font-size: 2em;
+}
+button{
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1em;
+  background-color: #fa5c00;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+.container button.save{
+  margin: 0;
+  float: right;
+}
+
+.container input,
+.container textarea{
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(81, 13, 177);
+}
+.container form div{
+  position: relative;
+}
+.container form div label{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: grey;
+  transition: .5s;
+  pointer-events: none;
+}
+.container input:focus ~ label,
+.container input:valid ~ label,
+.container textarea:focus ~ label,
+.container textarea:valid ~ label{
+  top: -12px;
+  left: 0;
+  color: rgb(81, 13, 177);
+  font-size: 13px;
+  font-weight: bold;
+}
+.container input:focus:valid ~ label,
+.container textarea:focus:valid ~ label{
+  color: rgb(2, 165, 2);
+}
+.container input:focus:valid,
+.container textarea:focus:valid{
+  border-bottom: 2px solid rgb(2, 165, 2);
+}
+.container input:focus:invalid ~ label,
+.container textarea:focus:invalid ~ label{
+  color: red;
+}
+.container input:focus:invalid,
+.container textarea:focus:invalid{
+  border-bottom: 2px solid red;
+}
+.container textarea{
+  resize: vertical;
+  overflow: auto;
+}

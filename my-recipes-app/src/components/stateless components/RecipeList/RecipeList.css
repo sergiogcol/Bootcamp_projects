@@ -1,0 +1,14 @@
+.recipes{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+.recipeSummary{
+    text-decoration: none;
+}
